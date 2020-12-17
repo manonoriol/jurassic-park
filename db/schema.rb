@@ -10,9 +10,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 2020_12_17_144233) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "dinosaurs", force: :cascade do |t|
+    t.string "name"
+    t.string "image_url"
+    t.bigint "park_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.text "description"
+    t.index ["park_id"], name: "index_dinosaurs_on_park_id"
+  end
+
+  create_table "parks", force: :cascade do |t|
+    t.string "name"
+    t.string "banner_url"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  add_foreign_key "dinosaurs", "parks"
 end
