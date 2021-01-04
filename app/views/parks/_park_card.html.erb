@@ -1,0 +1,10 @@
+<%= link_to park_path(park) do %>
+  <div class="card-park">
+    <%= image_tag park.banner_url %>
+    <div class="card-park-infos">
+      <div>
+        <h2><%= park.name %></h2>
+      </div>
+    </div>
+  </div>
+<% end %>
