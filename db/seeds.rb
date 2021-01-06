@@ -17,7 +17,7 @@ puts "====================================================="
 
 j_p = Park.new(
   name: "Jungle Paradise",
-  banner_url: "https://source.unsplash.com/400x300/?jungle")
+  banner_url: "https://images.unsplash.com/photo-1607462571650-8269a7ebdc55?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixlib=rb-1.2.1&q=80&w=400")
 j_p.save!
 
 b_f = Park.new(
