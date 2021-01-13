@@ -1,1 +1,20 @@
-<h1>New Park</h1>
+<div class="container">
+  <h1>New Park</h1>
+  <div class="row justify-content-center">
+    <div class="col-5" style="color:white;">
+      <div class="form-inputs">
+        <%= simple_form_for @park do |f| %>
+        <%= f.input :name, label: 'Name of your park', error: 'Park name is mandatory, please add one' %>
+        <%= f.input :banner_url, label: "Link of the park's banner image" %>
+      </div>
+
+      <div class="form-submit text-center">
+        <%= f.button :submit, class: "button" %>
+      <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
