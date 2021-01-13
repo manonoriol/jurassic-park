@@ -5,6 +5,7 @@
   border-radius: 5px;
   width: 400px;
   border: 1px solid $jsred;
+  margin: 20px;
 }
 
 .card-park img {
@@ -13,12 +14,12 @@
   object-fit: cover;
 }
 
-.cards h2 {
+.row h2 {
   text-align: center;
   font-family: $jurassic;
   font-size: 60px;
 }
 
-.cards a:hover {
+.wrapper a:hover {
   text-decoration: none;
 }

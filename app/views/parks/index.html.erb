@@ -28,8 +28,8 @@
 
 <div class="parks-container">
   <h2 class="text-center">Our parks</h2>
-  <div class="cards">
-    <%= @parks.each do |park| %>
+  <div class="row justify-content-center">
+    <% @parks.each do |park| %>
       <%= render "park_card", park: park %>
     <% end %>
   </div>
