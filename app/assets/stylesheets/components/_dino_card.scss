@@ -23,6 +23,12 @@ $border-radius-size: 14px;
   margin-bottom: 35px;
   border-top-left-radius: $border-radius-size;
   border-top-right-radius: $border-radius-size;
+    img {
+    width: 400px;
+    position: absolute;
+    top: -65px;
+    left: -70px;
+  }
 }
 
 
