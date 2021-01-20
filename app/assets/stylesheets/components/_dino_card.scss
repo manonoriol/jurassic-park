@@ -1,0 +1,41 @@
+$border-radius-size: 14px;
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+.dino-card {
+  background: white;
+  width: 300px;
+  display: inline-block;
+  margin: auto;
+  border-radius: $border-radius-size + 5;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  z-index: 9999;
+}
+
+.dino-img {
+  position: relative;
+  height: 230px;
+  margin-bottom: 35px;
+  border-top-left-radius: $border-radius-size;
+  border-top-right-radius: $border-radius-size;
+}
+
+
+.dino-name {
+  font-size: 26px;
+  color: black;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.dino-description {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+
