@@ -2,8 +2,11 @@
     <h1> <%= @park.name %> </h1>
 </div>
 
+
 <div class="dino-container">
-  <% @park.dinosaurs.each do |dinosaur| %>
-    <%= render "dino_card", dinosaur: dinosaur %>
-  <% end %>
+  <div class="cards">
+    <% @park.dinosaurs.each do |dinosaur| %>
+      <%= render "dino_card", dinosaur: dinosaur %>
+    <% end %>
+  </div>
 </div>
