@@ -6,7 +6,6 @@ $border-radius-size: 14px;
 
 
 .dino-card {
-  background: white;
   width: 300px;
   display: inline-block;
   margin: auto;
@@ -17,18 +16,22 @@ $border-radius-size: 14px;
   z-index: 9999;
 }
 
+
 .dino-img {
   position: relative;
   height: 230px;
   margin-bottom: 35px;
   border-top-left-radius: $border-radius-size;
   border-top-right-radius: $border-radius-size;
-    img {
-    width: 400px;
-    position: absolute;
-    top: -65px;
-    left: -70px;
-  }
+  background-size: cover;
+}
+
+.lower-card {
+  background: white;
+  height: 200px;
+  overflow: scroll;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 
