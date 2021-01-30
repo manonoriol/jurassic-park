@@ -8,6 +8,11 @@
   margin: 20px;
 }
 
+.card-park:hover{
+  border: 1px solid $jsyell;
+  -webkit-transition: border 1s ease-out;
+}
+
 .card-park img {
   height: 200px;
   width: 100%;
