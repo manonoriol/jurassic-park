@@ -1,9 +1,10 @@
-.dino-container {
-  .cards {
+
+.cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
-  justify-items: center;
+  grid-template-rows: auto;
+  justify-content: center;
 }
 
 // Smallest device
@@ -40,7 +41,7 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-}
+
 
 .banner {
   background-size: cover;
