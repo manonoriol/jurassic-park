@@ -31,7 +31,7 @@ h_g = Park.new(
 h_g.save!
 
 t_c = Park.new(
-  name: "Tropical Circus",
+  name: "Tropical Inferno",
   banner_url: "https://images.unsplash.com/photo-1591662664776-56045e8a3eaf?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixlib=rb-1.2.1&q=80&w=400")
 t_c.save!
 
@@ -48,7 +48,7 @@ dino_1= Dinosaur.new(
 
 dino_2= Dinosaur.new(
       name: "Triceratops",
-      image_url: "https://static.wikia.nocookie.net/jurassicpark/images/a/a7/Triceratops-detail-header.png/revision/latest/scale-to-width-down/788?cb=20150630160929&path-prefix=fr",
+      image_url: "https://qph.fs.quoracdn.net/main-qimg-104ad86ac2587012ad3368ac114da6e4",
       description: "Probably the most instantly recognizable of all dinosaurs is the North American Triceratops (three-horned face), with its parrot-like beak and huge frill at the back of its head. It combined a gentle, plant-eating disposition with three fearsome-looking horns that were probably used both in courtship and keeping hungry tyrannosaurs and raptors at bay. This dinosaur is from the late Cretaceous period (68-66 million years ago), and the adults were big—about 26 feet long, 10 feet tall, and 12 tons. It's South Dakota's state fossil and Wyoming's official state dinosaur. It has held a spotlight in movies such as 'Night at the Museum: The Secret of the Tomb,' and was later shrunken considerably to promote the film as a freebie in fast-food meals for kids. A dinosaur room at any museum is an awesome place for dinosaur lovers, and the Triceratops gets lots of attention at New York City's American Museum of Natural History—you can see the evidence of an injury from perhaps a fight with another Triceratops on the fossil at this museum. And in Washington, D.C., at the Smithsonian Institution's National Museum of Natural History, kids of all ages still can't wait to see the museum's beloved Hatcher, a favorite Triceratops specimen enjoyed in a complete form by crowds since 1905 until it fell apart 90 years later to be displayed as a T. rex meal."
     )
 dino_2.park = j_p
@@ -64,7 +64,7 @@ dino_3= Dinosaur.new(
 
   dino_4= Dinosaur.new(
       name: "Stegosaurus",
-      image_url: "https://static.wikia.nocookie.net/jurassicpark/images/4/4c/Stegosaurus-detail-header.png/revision/latest/scale-to-width-down/1000?cb=20170911073136&path-prefix=fr",
+      image_url: "https://www.dino-zoo.com/templates/yootheme/cache/Stegosaurus-9bab4aa0.png",
       description: "No one knows why Stegosaurus (which translates to 'roof lizard') had such distinctive plates that on average were 2 feet tall and 2 feet wide, but that hasn't kept this tiny-brained dinosaur from holding a tight grip on the popular imagination. Some believe this dinosaur's spiky plates could have been brightly colored and could move, and the spikes on the tail may have actually been horizontal instead of vertical, which would help ward off predators. Thanks to its debut in 'Jurassic Park' movies, theme parks, games, toys, and trading cards, this elephant-sized dinosaur from the late Jurassic period won the hearts of many as a peaceful plant-eater that roamed the plains in what is now North America."
     )
     dino_4.park = b_f
@@ -72,7 +72,7 @@ dino_3= Dinosaur.new(
 
   dino_5= Dinosaur.new(
       name: "Spinosaurus",
-      image_url: "https://www.dino-zoo.com/templates/yootheme/cache/Stegosaurus-9bab4aa0.png",
+      image_url: "https://www.dino-zoo.com/templates/yootheme/cache/SPINOSAURUS-HD-1fa693ef.png",
       description: "An up-and-comer on the dinosaur popularity charts, Spinosaurus, or spine lizard, was distinguished by its vast size (59 feet long) and likely weight of a couple of tons more than T. rex. It has a mysterious 5.5-foot sail on its back—a fin-like fan that's purpose is richly debated. From the few fossils discovered in Egypt and Morocco, it is assumed that the Spinosaurus was mostly a fish-eating river dweller and perhaps one of the first dinosaurs that could swim. Although, its strong back legs have some believing it could run up to 15 mph."
     )
     dino_5.park = b_f
@@ -104,7 +104,7 @@ dino_3= Dinosaur.new(
 
   dino_9= Dinosaur.new(
       name: "Dilophosaurus",
-      image_url: "https://www.dlf.pt/dfpng/middlepng/56-569172_dilophosaurus-png-transparent-png.png",
+      image_url: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/09302c82-0d2c-4d77-8227-9f1e618f9266/dczixk1-b5f0b56a-04ad-4063-8e33-0a295e8c5030.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDkzMDJjODItMGQyYy00ZDc3LTgyMjctOWYxZTYxOGY5MjY2XC9kY3ppeGsxLWI1ZjBiNTZhLTA0YWQtNDA2My04ZTMzLTBhMjk1ZThjNTAzMC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.Zl9j-5fxxiIsfkhvu4m3AXKVhY6H5C0IgVhN4cDQKRE",
       description: "Despite what you saw in 'Jurassic Park,' Dilophosaurus didn't spit poison; it didn't have a neck frill, and it wasn't the size of a Labrador retriever. However, this dinosaur remains popular with dinosaur enthusiasts even after they learn the truth. After studying fossils from North America and China, scientists believe that the Dilophosaurus (which means 'double-crested lizard' for its fancy head decoration) was about 20 feet long from head to tail and weighed about 1,000 pounds. And with a mouth full of sharp teeth, they are thought to have been scavengers, supplementing their diet by hunting for small animals and fish."
     )
     dino_9.park = h_g
