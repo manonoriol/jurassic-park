@@ -4,7 +4,7 @@
 
 
 <div class="dino-container">
-  <div class="cards">
+  <div class="wrapper">
     <% @park.dinosaurs.each do |dinosaur| %>
       <%= render "dino_card", dinosaur: dinosaur %>
     <% end %>
