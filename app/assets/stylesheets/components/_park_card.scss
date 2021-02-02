@@ -10,7 +10,9 @@
 
 .card-park:hover{
   border: 1px solid $jsyell;
-  -webkit-transition: border 1s ease-out;
+  transform: scale(1.01);
+  transition: all .2s ease;
+
 }
 
 .card-park img {
