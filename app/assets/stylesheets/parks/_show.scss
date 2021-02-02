@@ -26,8 +26,8 @@
 }
 
 // Medium devices (tablets, 768px and up)
-@wrapper (min-width: 768px) {
-  .cards {
+@media (min-width: 768px) {
+  .wrapper {
     grid-template-columns: 1fr 1fr;
   }
 }
