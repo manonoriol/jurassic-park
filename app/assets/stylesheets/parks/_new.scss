@@ -2,17 +2,18 @@ h1 {
   color: white;
   text-align: center;
   padding-bottom: 100px;
-  margin-top: 5px;
+  padding: 100px;
 }
 
-.button {
+.validation-btn {
   border: 1px solid red;
   color: white;
   opacity: 0.8;
 }
 
-.button:hover {
+.validation-btn:hover {
   opacity: 1;
+  color: white;
 }
 
 #new-form {
