@@ -40,12 +40,20 @@ body {
 .icon {
   text-align: center;
   margin-bottom: 5px;
+
+  img {
+
+    margin-bottom: 5px;
+  }
 }
 
 #how {
-  margin-bottom: 70px;
+
 }
 
+#our {
+  margin: 80px;
+}
 .parks-container {
   h2 {
     color: white;
@@ -57,4 +65,5 @@ body {
 
 .row {
   background-color: black;
+  margin-top: 100px;
 }
